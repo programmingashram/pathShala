@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/programmingashram/pathShala/static/css/main.f855e6bc.css",
+    "main.js": "/programmingashram/pathShala/static/js/main.59062e37.js",
+    "static/js/787.d3dc5b08.chunk.js": "/programmingashram/pathShala/static/js/787.d3dc5b08.chunk.js",
+    "index.html": "/programmingashram/pathShala/index.html",
+    "main.f855e6bc.css.map": "/programmingashram/pathShala/static/css/main.f855e6bc.css.map",
+    "main.59062e37.js.map": "/programmingashram/pathShala/static/js/main.59062e37.js.map",
+    "787.d3dc5b08.chunk.js.map": "/programmingashram/pathShala/static/js/787.d3dc5b08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.59062e37.js"
+  ]
+}
