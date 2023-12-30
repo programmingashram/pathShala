@@ -8,6 +8,9 @@
 .bgn-2{
   background: #ededed;
 }
+a{
+  text-decoration: none !important;
+}
 .bgn-1{
   background: #d9d4d0;
 }
@@ -28,4 +31,8 @@
     padding: 0 !important;
     border-radius: 0 !important;
   }
+  .ant-card-grid{
+    width: 33.333% !important;
+  }
 }
+

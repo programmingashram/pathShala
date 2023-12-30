@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Avatar, Col, Divider, Drawer, List, Row ,Button, Layout} from 'antd';
+import { Avatar, Col, Divider, Drawer, List, Row ,Layout} from 'antd';
+import Profile from './profile.jpeg';
+
 const DescriptionItem = ({ title, content }) => (
   <div className="site-description-item-profile-wrapper">
     <p className="site-description-item-profile-p-label">{title}:</p>
@@ -32,19 +34,22 @@ const Mentors = () => {
                 bordered
                 renderItem={(item) => (
                   <List.Item
+                 
                     key={item.id}
                     actions={[
                       <a onClick={showDrawer} key={`a-${item.id}`}>
                         View Profile
                       </a>,
+                      
                     ]}
                   >
                     <List.Item.Meta
+                     className='align-items-center'
                       avatar={
-                        <Avatar src="https://programmingashram.in/assets/images/logo.png" />
+                        <Avatar src={Profile} />
                       }
-                      title={<a href="https://programmingashram.in/assets/images/logo.png">{item.name}</a>}
-                      description="Sr. Software Engineer"
+                      title={<a href="blob:https://web.whatsapp.com/f8173ecc-a1f9-4741-811c-adf0cfe92ef4">{item.name}</a>}
+                      description="Software Engineer"
                     />
                   </List.Item>
                 )}
@@ -70,7 +75,7 @@ const Mentors = () => {
                   </Row>
                   <Row>
                     <Col span={12}>
-                      <DescriptionItem title="City" content="Bilaspu" />
+                      <DescriptionItem title="City" content="Bilaspur" />
                     </Col>
                     <Col span={12}>
                       <DescriptionItem title="Country" content="India" />
@@ -115,18 +120,7 @@ const Mentors = () => {
                       <DescriptionItem title="Phone Number" content="+91 9343798829" />
                     </Col>
                   </Row>
-                  <Row>
-                    <Col span={24}>
-                      <DescriptionItem
-                        title="Github"
-                        content={
-                          <a href="http://github.com/ant-design/ant-design/">
-                            github.com/ant-design/ant-design/
-                          </a>
-                        }
-                      />
-                    </Col>
-                  </Row>
+                  
                 </Drawer>
               </Col>
           </Row>
